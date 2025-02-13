@@ -1,0 +1,11 @@
+.errorPageContainer {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+.errorMessage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

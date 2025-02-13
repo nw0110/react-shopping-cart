@@ -1,0 +1,8 @@
+.productViewContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 32px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid black;
+}

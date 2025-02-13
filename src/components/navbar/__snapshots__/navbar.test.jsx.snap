@@ -1,0 +1,49 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Navbar > renders Navbar 1`] = `
+<div>
+  <div
+    class="_navbar_8210b0"
+  >
+    <div
+      class="_branding_8210b0"
+    >
+      <a
+        href="/"
+      >
+        <img
+          class="_mainLogo_8210b0"
+          src="/src/assets/store.png"
+        />
+        <h1>
+          SuperStore
+        </h1>
+      </a>
+    </div>
+    <nav
+      class="_navElement_8210b0"
+    >
+      <a
+        href="/cart"
+      >
+        <div
+          class="_cartIconWithQuantity_8210b0"
+        >
+          <img
+            height="32"
+            src="/src/assets/cart.png"
+          />
+          <div
+            class="_cartQuantity_8210b0"
+          >
+            12
+          </div>
+        </div>
+        <div>
+          12€
+        </div>
+      </a>
+    </nav>
+  </div>
+</div>
+`;

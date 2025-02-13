@@ -1,0 +1,15 @@
+.cartView {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding: 32px;
+    width: 50vw;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.cartView button {
+    background-color: #ed5177;
+    border: none;
+    padding: 12px 24px;
+}

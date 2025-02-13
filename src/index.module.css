@@ -1,0 +1,79 @@
+/* Using CSS resets from https://www.joshwcomeau.com/css/custom-css-reset/ */
+
+/* 1. Use a more-intuitive box-sizing model */
+:global(*),
+:global(*::before),
+:global(*::after) {
+  box-sizing: border-box;
+}
+
+/* 2. Remove default margin */
+:global(*) {
+  margin: 0;
+}
+
+:global(body) {
+  /* 3. Add accessible line-height */
+  line-height: 1.5;
+  /* 4. Improve text rendering */
+  -webkit-font-smoothing: antialiased;
+}
+
+/* 5. Improve media defaults */
+:global(img),
+:global(picture),
+:global(video),
+:global(canvas),
+:global(svg) {
+  display: block;
+  max-width: 100%;
+}
+
+/* 6. Inherit fonts for form controls */
+:global(input),
+:global(button),
+:global(textarea),
+:global(select) {
+  font: inherit;
+}
+
+/* 7. Avoid text overflows */
+:global(p),
+:global(h1),
+:global(h2),
+:global(h3),
+:global(h4),
+:global(h5),
+:global(h6) {
+  overflow-wrap: break-word;
+}
+
+/* 8. Improve line wrapping */
+:global(p) {
+  text-wrap: pretty;
+}
+
+:global(h1),
+:global(h2),
+:global(h3),
+:global(h4),
+:global(h5),
+:global(h6) {
+  text-wrap: balance;
+}
+
+/* 9. Create a root stacking context */
+:global(#root),
+:global(#__next) {
+  isolation: isolate;
+}
+
+/* end of css resets */
+
+:global(html) {
+  background-color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
